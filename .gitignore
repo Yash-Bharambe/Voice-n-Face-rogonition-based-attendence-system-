@@ -1,0 +1,33 @@
+# Python environment
+venv/
+.venv/
+env/
+ENV/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+
+# Streamlit secrets (DO NOT COMMIT SENSITIVE KEYS)
+app/.streamlit/secrets.toml
+secrets.toml
+.env
+
+# Pip cache and temp directories
+pip_cache/
+temp/
+*.tmp
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+app/.local/
+
+# Generated documents and local verification dependencies
+output/
+tmp/

@@ -1,0 +1,33 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+streamlit==1.65.0
+# Utilitites 
+numpy
+pandas
+
+# FACE RECOGNITION
+scikit-learn
+dlib-bin==20.0.1.post1
+opencv-python-headless==4.10.0.84
+face_recognition_models==0.3.0
+setuptools<70.0.0
+
+
+supabase
+bcrypt
+
+
+
+segno
+pillow
+
+
+
+librosa
+resemblyzer
+faster-whisper>=1.2,<2
+speechbrain>=1.0.3,<1.1
+torch==2.8.0+cpu; sys_platform == "linux"
+torchaudio==2.8.0+cpu; sys_platform == "linux"
+torch==2.8.0; sys_platform != "linux"
+torchaudio==2.8.0; sys_platform != "linux"
+huggingface-hub>=0.21,<1
